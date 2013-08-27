@@ -1,0 +1,6 @@
+<form action="/" method="post">
+    Get Anagrams For:
+    <br>
+    <input type="text" name="user_input">
+    <input type="submit" value="Find">
+  </form>

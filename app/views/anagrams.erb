@@ -1,0 +1,12 @@
+<h1>Your Anagrams</h1>
+
+<ul>
+  <% if @anagrams.nil? %>
+    <li>No words found</li>
+  <% else %>
+    <% @anagrams.each do |a| %>
+      <%=  a.term %>
+      <br>
+    <% end %>
+  <% end %>
+</ul>
